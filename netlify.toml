@@ -1,0 +1,3 @@
+[build]
+  command = "pip install -r requirements.txt && FLASK_ENV=production flask run"
+  publish = "dist/"
