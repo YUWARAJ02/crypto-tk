@@ -13,7 +13,8 @@ from mpld3 import plugins
 import csv
 import json
 # Create the Flask app
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
+
 
 def remove(x):
     """
