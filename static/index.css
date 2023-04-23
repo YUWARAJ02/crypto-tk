@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    color: azure;
+}
+
+.form-submit-button {
+	background: #1a2936;
+	color: #fff;
+	border: 1px solid #eee;
+    padding: 10px 30px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #2a333d;
+	text-shadow: none;
+}
+
+.form-submit-button:hover {
+	background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #9093b6;
+	text-shadow: none;
+}
+.out {
+	font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: blinker 1s linear infinite;
+    color: gold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  @keyframes blinker {
+    50% {
+      color: white;
+    }
+}
