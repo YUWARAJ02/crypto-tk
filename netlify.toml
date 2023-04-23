@@ -1,7 +1,0 @@
-[build]
-  command = "pip install -r requirements.txt && python app.py build"
-  publish = "dist"
-
-[dev]
-  command = "python app.py runserver"
-
