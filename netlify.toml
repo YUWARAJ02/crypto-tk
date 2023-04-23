@@ -1,3 +1,7 @@
 [build]
-  command = "pip install -r requirements.txt && FLASK_ENV=production flask run"
-  publish = "dist/"
+  command = "pip install -r requirements.txt && python app.py build"
+  publish = "dist"
+
+[dev]
+  command = "python app.py runserver"
+
